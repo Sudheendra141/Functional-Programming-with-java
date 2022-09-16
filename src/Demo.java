@@ -7,11 +7,11 @@ public class Demo {
 		// TODO Auto-generated method stub
 
 		int arr[]= {4,67,72,55,67,12};
-		Arrays.stream(arr).map((n)->n%2==0?n:0).collect(Collectors.toList()).forEach(System.out::println);
+Arrays.stream(arr).map(Integer::new).forEach(System.out::println);
 		
 	}
 
 	
 	}
 
-}
+
