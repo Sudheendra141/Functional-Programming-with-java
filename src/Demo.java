@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 // filter demo
-public class Filter {
+public class Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,7 +9,7 @@ public class Filter {
 		List<Integer> al = Arrays.asList(1, 2, 4, 5, 6, 7, 123);
 		List<String> name = Arrays.asList("AmmA", "Kanna", "Book", "vikaakiv");
 
-		List<String> Palindroms = name.stream().filter(a -> Filter.isPalindrome(a)).collect(Collectors.toList());
+		List<String> Palindroms = name.stream().filter(a -> Demo.isPalindrome(a)).collect(Collectors.toList());
 
 		Palindroms.forEach(System.out::println);
 		al.stream().filter((a) -> {
